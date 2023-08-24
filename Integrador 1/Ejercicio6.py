@@ -28,7 +28,7 @@ class Persona:
 
     # Setter para el atributo 'edad'
     def set_edad(self, edad):
-        # Validamos que la edad sea un número positivo
+        # Validamos que sea mayor de edad
         if edad >= 0:
             self.edad = edad
         else:
